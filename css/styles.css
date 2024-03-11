@@ -20,6 +20,10 @@ Secondary Color (Orange): #e0b354;
 
   /*BODY CODE*/
 
+  /*<style> 
+        h1{text-align: center;} 
+    </style> */
+
 
  body {
     background-color: rgb(238, 195, 179);
@@ -31,7 +35,13 @@ Secondary Color (Orange): #e0b354;
     /* Sets the line-height to 1.6 */
   }
   
+  p {
+    text-align: center;
+
+  }
+
   h1 {
+    text-align: center;
     font-size: 30px;
     font-weight: 700;
   }
@@ -42,6 +52,7 @@ Secondary Color (Orange): #e0b354;
   }
   
   h3 {
+    text-align: center;
     font-size: 18px;
     font-weight: 700;
   }
@@ -65,6 +76,12 @@ Secondary Color (Orange): #e0b354;
 
   input, texture, select, button {
     font-family: system-ui;
+  }
+
+  div {
+    padding: 5%; /* PADDING GIVES SPACE BETWEEN ELEMENTS etc: <div> */
+    text-align: center;
+
   }
 
   /* BUTTON CODE */
